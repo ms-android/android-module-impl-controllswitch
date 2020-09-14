@@ -35,3 +35,5 @@ dependencies {
 
     implementation "com.ms:module-super:debug-latest"
 }
+
+apply from:"./mavenpublish_local.gradle"
