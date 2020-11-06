@@ -29,8 +29,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-     releaseImplementation "com.ms:android-module-super:latest-RELEASE"
-    debugImplementation "com.ms:android-module-super:latest-DEBUG"
+    implementation "com.ms:android-module-super:latest-release"
+
 }
 
 apply from: "./maven_publish.gradle"
